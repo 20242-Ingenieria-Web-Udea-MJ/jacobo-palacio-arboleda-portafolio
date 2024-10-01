@@ -1,11 +1,12 @@
 import React from 'react';
-import LeftBar from '@/components/organisms/leftbar';
+import LeftBar from '@/components/organisms/leftBar';
 import ProgrammingLanguages from '@/components/molecules/programmingLanguages';
+import RightBar from '@/components/organisms/rightBar';
 
 const HomePage: React.FC = () => {
   const user = {
     photoUrl: '/photo.png',
-    
+
     name: "Jacobo Palacio",
     title: "Jr. Android Developer",
 
@@ -42,6 +43,7 @@ const HomePage: React.FC = () => {
       <main className="flex-grow p-8">
         {/* Aquí va el contenido principal */}
       </main>
+      <RightBar />
     </div>
   );
 };

@@ -30,7 +30,7 @@ interface LeftBarProps {
 
 const LeftBar: React.FC<LeftBarProps> = ({ user }) => {
   return (
-    <aside className="w-72 bg-white shadow-lg p-4">
+    <aside className="w-72 bg-gray-200 shadow-lg p-4">
       <ProfilePhoto src={user.photoUrl} alt={user.name} />
       <Heading level={2} className="text-center mt-4 text-sm">
         {user.name}
@@ -60,7 +60,7 @@ const LeftBar: React.FC<LeftBarProps> = ({ user }) => {
       </div>
 
       <div className="mt-6">
-        <Heading level={3} className="mb-2">Extra Skills</Heading>
+        <Heading level={3} className="mb-2">Extra skills</Heading>
         <ExtraSkills skills={user.extraSkills} />
       </div>
 

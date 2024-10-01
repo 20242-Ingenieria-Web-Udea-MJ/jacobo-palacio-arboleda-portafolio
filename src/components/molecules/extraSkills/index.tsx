@@ -12,8 +12,7 @@ interface ExtraSkillsProps {
 
 const ExtraSkills: React.FC<ExtraSkillsProps> = ({ skills }) => {
     return (
-      <div className="mt-6">
-        <h3 className="text-lg font-semibold mb-4">Extra Skills</h3>
+      <div className="mt-2">
         <ul className="list-none space-y-2">
           {skills.map((skill, index) => (
             <li key={index} className="flex items-center">

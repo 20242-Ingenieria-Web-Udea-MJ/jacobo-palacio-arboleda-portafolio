@@ -1,6 +1,5 @@
 // src/components/organisms/ProfileHeader.tsx
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Heading from '@/components/atoms/heading';
 import Text from '@/components/atoms/text';
 import KnowMoreButton from '@/components/atoms/knowMoreButton';
@@ -21,7 +20,7 @@ const ProfileHeader: React.FC = () => {
     <section className="text-center py-12 bg-gray-100">
       <div className="container mx-auto">
         <Heading level={1} className="text-6xl font-bold mt-4">
-          I'm Jacobo Palacio
+          I&apos;m Jacobo Palacio
           <span className="text-primary"> Junior Android Developer</span>
         </Heading>
         <Text className="text-3xl text-center mt-2 text-gray-500">

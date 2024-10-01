@@ -15,7 +15,7 @@ const InfoDialog: React.FC<InfoDialogProps> = ({ isOpen, onClose }) => {
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
         I really enjoy reading science fiction literature, practicing the violin and electric 
-        bass in my free time, and I am a player on my university's representative beach volleyball team.
+        bass in my free time, and I am a player on my university&apos;s representative beach volleyball team.
         </p>
         <button
           onClick={onClose}

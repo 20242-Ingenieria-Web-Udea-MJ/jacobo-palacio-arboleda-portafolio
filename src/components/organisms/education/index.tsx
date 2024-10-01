@@ -1,12 +1,10 @@
-// src/components/organisms/Education.tsx
 import React from 'react';
-import EducationItem from '@/components/molecules/educationItem';
+import EducationItem from '@/components/molecules/education-item';
 
 const Education: React.FC = () => {
   const education = [
     { institution: 'University of Antioquia', degree: 'Student', year: '2018 - Present' },
     { institution: 'Meta Course: Introduction to Android Mobile App Development', degree: 'Graduate', year: '2024' },
-    // Agrega más experiencia aquí
   ];
 
   return (

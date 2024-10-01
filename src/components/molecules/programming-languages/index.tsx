@@ -1,6 +1,6 @@
 // components/molecules/LanguageSkills.tsx
 import React from 'react';
-import ProgressBar from '@components/atoms/progressBar';
+import ProgressBar from '@/components/atoms/progress-bar';
 
 interface ProgrammingLanguagesProps {
   programmingLanguages: { name: string; level: number }[];

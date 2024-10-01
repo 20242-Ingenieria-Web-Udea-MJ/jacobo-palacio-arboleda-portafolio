@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgressBar from '@components/atoms/progressBar';
+import ProgressBar from '@/components/atoms/progress-bar';
 
 interface LanguagesProps {
   languages: { name: string; level: number }[];

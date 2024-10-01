@@ -1,9 +1,8 @@
-// src/components/organisms/ProfileHeader.tsx
 import React, { useState } from 'react';
 import Heading from '@/components/atoms/heading';
 import Text from '@/components/atoms/text';
-import KnowMoreButton from '@/components/atoms/knowMoreButton';
-import InfoDialog from '@/components/atoms/infoDialog';
+import KnowMoreButton from '@/components/atoms/know-more-button';
+import InfoDialog from '@/components/atoms/info-dialog';
 
 const ProfileHeader: React.FC = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);

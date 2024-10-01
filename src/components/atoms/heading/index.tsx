@@ -1,4 +1,3 @@
-// components/atoms/Heading.tsx
 import React from 'react';
 
 interface HeadingProps {

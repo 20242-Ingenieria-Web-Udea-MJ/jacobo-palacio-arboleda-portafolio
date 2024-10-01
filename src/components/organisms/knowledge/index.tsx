@@ -1,13 +1,11 @@
-// src/components/organisms/MyKnowledge.tsx
 import React from 'react';
-import KnowledgeCard from '@/components/molecules/knowledgeCard';
+import KnowledgeCard from '@/components/molecules/knowledge-card';
 
 const Knowledge: React.FC = () => {
   const skills = [
     { icon: 'uil:android', title: 'Android Development', description: 'Kotlin, Jetpack Compose, Room, Retrofit, MVVM and more.' },
     { icon: 'mdi:palette', title: 'UI/UX Design', description: 'Design principles and tools.' },
     { icon: 'file-icons:firebase', title: 'Google Firebase Services', description: 'App Hosting, Authentication, Cloud Firestore, Machine Learning, etc' },
-    // Agrega más habilidades aquí
   ];
 
   return (

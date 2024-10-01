@@ -1,5 +1,5 @@
 import React from 'react';
-import AnalyticsUpIcon from '@/components/atoms/analyticsUpIcon';
+import AnalyticsUpIcon from '@/components/atoms/analytics-up-icon';
 
 interface Skill {
   name: string;

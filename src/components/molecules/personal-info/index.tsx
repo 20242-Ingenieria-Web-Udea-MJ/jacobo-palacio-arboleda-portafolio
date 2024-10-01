@@ -1,4 +1,3 @@
-// components/molecules/PersonalInfo.tsx
 import React from 'react';
 import Text from '@components/atoms/text';
 

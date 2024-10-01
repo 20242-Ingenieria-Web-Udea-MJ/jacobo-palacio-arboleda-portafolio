@@ -1,4 +1,3 @@
-// src/components/molecules/PortfolioItem.tsx
 import React from 'react';
 import Image from 'next/image';
 

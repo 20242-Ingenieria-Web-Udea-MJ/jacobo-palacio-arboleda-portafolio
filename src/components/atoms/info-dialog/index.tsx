@@ -1,4 +1,3 @@
-// src/components/atoms/InfoDialog.tsx
 import React from 'react';
 
 interface InfoDialogProps {

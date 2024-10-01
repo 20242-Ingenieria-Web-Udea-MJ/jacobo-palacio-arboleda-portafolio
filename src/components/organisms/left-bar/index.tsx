@@ -1,12 +1,11 @@
-// components/organisms/LeftBar.tsx
 import React from 'react';
-import ProfilePhoto from '@components/atoms/profilePhoto';
+import ProfilePhoto from '@/components/atoms/profile-photo';
 import Heading from '@components/atoms/heading';
 import Text from '@/components/atoms/text';
-import PersonalInfo from '@/components/molecules/personalInfo';
+import PersonalInfo from '@/components/molecules/personal-info';
 import Languages from '@/components/molecules/languages';
-import ProgrammingLanguages from '@/components/molecules/programmingLanguages';
-import ExtraSkills from '@/components/molecules/extraSkills';
+import ProgrammingLanguages from '@/components/molecules/programming-languages';
+import ExtraSkills from '@/components/molecules/extra-skills';
 
 interface LeftBarProps {
   user: {

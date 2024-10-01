@@ -1,6 +1,5 @@
-// src/components/organisms/RightBar.tsx
 import React from 'react';
-import IconButton from '@components/atoms/iconButton'; // Asegúrate de tener este componente
+import IconButton from '@/components/atoms/icon-button';
 import Heading from '@components/atoms/heading';
 
 const RightBar: React.FC = () => {

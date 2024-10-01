@@ -12,16 +12,15 @@ const projects: Project[] = [
   {
     title: 'FashionApp',
     description: 'A mobile app developed in Kotlin for fashion lovers. It provides fashion tips, outfit ideas, and allows users to buy trendy clothes.',
-    imageUrl: '/fashion-app.png', // Imagen correspondiente al proyecto
+    imageUrl: '/fashion-app.png', 
     githubLink: 'https://github.com/jeyko55/fashion-app-movil-kotlin',
   },
   {
     title: 'AppTunelOriente',
     description: 'An app that provides real-time information about the Oriente Tunnel, including traffic, weather, and toll costs.',
-    imageUrl: '/app-tunel-oriente.png', // Imagen correspondiente al proyecto
+    imageUrl: '/app-tunel-oriente.png', 
     githubLink: 'https://github.com/jeyko55/app-tunel-oriente',
   },
-  // Puedes añadir más proyectos aquí
 ];
 
 const Portfolio: React.FC = () => {

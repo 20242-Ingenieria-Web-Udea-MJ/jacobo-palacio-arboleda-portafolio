@@ -1,4 +1,3 @@
-// components/atoms/Text.tsx
 import React from 'react';
 
 interface TextProps {
@@ -7,7 +6,7 @@ interface TextProps {
 }
 
 const Text: React.FC<TextProps> = ({ children, className = '' }) => {
-  return <p className={`text-sm ${className}`}>{children}</p>;
+  return <p className={`${className}`}>{children}</p>;
 };
 
 export default Text;

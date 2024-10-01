@@ -1,4 +1,3 @@
-// components/molecules/ExtraSkills.tsx
 import React from 'react';
 import AnalyticsUpIcon from '@/components/atoms/analyticsUpIcon';
 

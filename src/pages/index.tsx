@@ -1,7 +1,11 @@
 import React from 'react';
 import LeftBar from '@/components/organisms/leftBar';
-import ProgrammingLanguages from '@/components/molecules/programmingLanguages';
 import RightBar from '@/components/organisms/rightBar';
+import ProfileHeader from '@/components/organisms/profileHeader';
+import Knowledge from '@/components/organisms/knowledge';
+import Education from '@/components/organisms/education';
+import Portfolio from '@/components/organisms/portfolio';
+import Footer from '@/components/atoms/footer';
 
 const HomePage: React.FC = () => {
   const user = {
@@ -22,7 +26,7 @@ const HomePage: React.FC = () => {
 
     programmingLanguages: [
       { name: "Kotlin - Java", level: 80 },
-      { name: "Html - CSS - Javascript", level: 60 },
+      { name: "React Native", level: 40 },
       { name: "SQL", level: 60 },
       { name: "Python", level: 50 },
     ],
@@ -38,12 +42,20 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="flex">
-      <LeftBar user={user} />
-      <main className="flex-grow p-8">
-        {/* Aquí va el contenido principal */}
-      </main>
-      <RightBar />
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow flex">
+        <LeftBar user={user} />
+        <main className="flex-grow p-8 overflow-y-auto h-screen"> {/* Agregamos el scroll y fijamos la altura */}
+          <div>
+            <ProfileHeader />
+            <Knowledge />
+            <Education />
+            <Portfolio />
+          </div>
+        </main>
+        <RightBar />
+      </div>
+      <Footer />
     </div>
   );
 };

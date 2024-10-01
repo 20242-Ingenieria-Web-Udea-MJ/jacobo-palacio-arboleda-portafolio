@@ -9,7 +9,7 @@ interface HeadingProps {
 
 const Heading: React.FC<HeadingProps> = ({ children, level, className = '' }) => {
   const Tag = `h${level}` as keyof JSX.IntrinsicElements;
-  return <Tag className={`text-xl font-bold ${className}`}>{children}</Tag>;
+  return <Tag className={`font-bold ${className}`}>{children}</Tag>;
 };
 
 export default Heading;

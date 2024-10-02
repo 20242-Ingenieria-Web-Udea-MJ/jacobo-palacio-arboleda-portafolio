@@ -8,7 +8,7 @@ There are two ways to run the project:
 
 ### I. Online
 
-You can view the live portfolio at: [https://jacobo-palacio-arboleda.vercel.app](https://jacobo-palacio-arboleda.vercel.app)
+You can view the live portfolio at: [https://jacobo-palacio-arboleda-portafolio.vercel.app](https://jacobo-palacio-arboleda-portafolio.vercel.app)
 
 ### II. Locally
 
